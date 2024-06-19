@@ -1,0 +1,42 @@
+.landing-page{
+    background-color:rgb(202, 73, 73);
+color:rgb(8, 5, 202);
+font-size:"45px";
+}
+ h2 {
+    background-color:purple; 
+    text-indent: 10pc;
+font-display: 30;    
+}
+p{
+    border: 5px solid yellowgreen;
+    margin: 20px;
+    padding: 50px ;
+    font-size: 35px;
+}
+h3{ background-color: brown;
+    font-family: unset;
+    font-size: medium; 
+font-style: italic;
+text-align: center;
+}
+.navigation{
+    display: flex;
+ background-color: black;
+ overflow-x: scroll;
+}
+.navigation > li{
+    
+    list-style: none;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font: size 30px;
+    color: white;
+    
+}
+.navigation::-webkit-scrollbar {
+    display: none;
+}
+.navigation >li:hover {
+    background-color: rgb(91, 202, 91);
+}
